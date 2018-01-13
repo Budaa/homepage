@@ -1,0 +1,11 @@
+{
+  "plugins": ["babel"],
+  "extends": "airbnb-base",
+  "rules": {
+    "import/no-extraneous-dependencies": 0,
+    "object-curly-newline": 0,
+    "function-paren-newline": 0,
+    "camelcase": 1,
+    "arrow-parens": 0
+  }
+}
