@@ -1,6 +1,14 @@
 {
-  "plugins": ["babel"],
+  "plugins": ["babel", "react"],
   "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true
+  },
   "rules": {
     "import/no-extraneous-dependencies": 0,
     "object-curly-newline": 0,
