@@ -18,8 +18,8 @@ const config = {
     'build/*',
     'node_modules',
     'app',
-    'webpack*',
-  ],
+    'webpack*'
+  ]
 };
 
 ftpDeploy.on('uploading', data => {
